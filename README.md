@@ -70,7 +70,7 @@ DELETE FROM dodo_say WHERE id > 15;
 SELECT * FROM dodo_say;
 ; 可以通过扩展语法查看对应的删除记录
 SELECT id, TIDB_PARSE_TSO(_tidb_mvcc_ts) FROM dodo_say WHERE _tidb_mvcc_op = 'Delete';
-; 选择删除操作之前的时间戳进行回滚，这是一个 DDL 操作，不实际个修改
+; 选择删除操作之前的时间戳进行回滚，这是一个 DDL 操作，不实际修改数据
 FLASHBACK TABLE dodo_say TO TIMESTAMP ?;
 ; 重新查询确定删除的数据已回滚
 SELECT * FROM dodo_say;
