@@ -1,0 +1,22 @@
+CREATE TABLE dodo_say (id INT PRIMARY KEY, name VARCHAR(32), quote VARCHAR(128));
+
+INSERT INTO dodo_say VALUES (1, '老实的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (2, '热情的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (3, '害羞的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (4, '多疑的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (5, '活泼的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (6, '开朗的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (7, '滑稽的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (8, '古怪的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (9, '热情的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (10, '拘谨的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (11, '谨慎的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (12, '凶残的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (13, '怯弱的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (14, '温柔的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (15, '暴躁的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (16, '难过的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (17, '忧郁的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (18, '焦虑的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (19, '慷慨的渡渡鸟', '');
+INSERT INTO dodo_say VALUES (20, '仁慈的渡渡鸟', '');
